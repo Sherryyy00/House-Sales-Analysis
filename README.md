@@ -78,7 +78,17 @@ The dataset contained missing values in the `bedrooms` and `bathrooms` columns, 
 ### Exploratory Data Analysis
 - **Floors**: Most houses in the dataset have 1 or 2 floors.
 - **Waterfront**: Houses with waterfront views tend to have higher prices and more outliers.
+- 
+<p align="center">
+  <img src="https://github.com/Sherryyy00/House-Sales-Analysis/blob/main/Graphs/G1.png " width="50%" height="50%">
+</p>
+
 - **Correlation**: Features like `sqft_living`, `grade`, and `sqft_above` showed a strong positive correlation with `price`.
+
+<p align="center">
+  <img src="https://github.com/Sherryyy00/House-Sales-Analysis/blob/main/Graphs/G2.png " width="50%" height="50%">
+</p>
+
 
 ### Model Development
 - The simple linear regression using `longitude` as a predictor had a very low R² score, indicating that `longitude` alone is not a good predictor of `price`.
