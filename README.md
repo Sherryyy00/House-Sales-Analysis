@@ -42,7 +42,7 @@ In this module, we load and explore the dataset:
 ### Module 2: Data Wrangling
 In this module, we performed data cleaning and wrangling:
 
-- Dropped the `id` column (not successful due to an error).
+- Dropped the `id` column, since it is only a row identifier.
 - Checked and replaced missing values in the `bedrooms` and `bathrooms` columns with their respective means.
 
 ### Module 3: Exploratory Data Analysis
